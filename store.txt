@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>About Me</title>
+</head>
+<body>
+
+<header>
+  <h1>Hi, I'm Swadhin Bhandari</h1>
+  <h2>Student  Avid Reader  Literature Enthusiast></h2>
+  <hr>
+  <hr>
+</header>
+
+<main>
+  <div>
+    <h1>About Me</h1>
+    <p>
+      My name is Swadhin Bhandari and I am currently studying
+      +2 at St. Xavier's College, Maitighar.
+      I am passionate about learning new things and building projects that make a difference.
+    </p>
+     <hr>
+    <h2>My Education</h2>
+    <p>
+      I completed my SEE at Diamond Sec. School, Pokhara. I am currently studying science at SXC, Maitighar.
+      I'd like to graduate form SXC with a good GPA. I want to study further in the field of Computer
+      Science.
+    </p>
+      <hr>
+    <h3>Life Highlights</h3>
+    <p>
+      One of the most <strong>important</strong> decisions I have taken is leaving my
+      heavenly hometown for education at SXC.
+      I once bunked my all of my classes for a whole day.
+      I have played bass for a long time.
+    </p>
+    <hr>
+    <h4>My Skills</h4>
+    <p>
+      Over the years I have developed skills in <b>web development</b>, <i>sketching</i>,
+      and <b>public speaking</b>. I am especially proud of my ability to learn new technologies
+      quickly — a skill I consider <mark>one of my biggest strengths</mark>.
+       I have mildly good<em>problem-solving skills</em> that I use every day.
+    </p>
+<hr>
+    <h5>Hobbies &amp; Interests</h5>
+    <p>
+      Outside of academics, I enjoy sketching,
+      playing piano, and
+      reading science fiction.
+      These activities help me relax and think creatively.
+    </p>
+<hr>
+    <h6>Fun Fact</h6>
+    <p>
+      <small>A little-known fact about me: I once stayed at school until 
+        1:00 AM for a science project.
+      </small>
+    </p>
+<hr>
+    <h2>My Future Goals</h2>
+    <p>
+      My plan was originally to focus only on <del>a single career path</del>, but I have since decided to
+      <ins>explore multiple fields before settling on one</ins>. In the next five years, I hope to
+      study at a good University, improve myself and
+      contribute to projects that have a positive impact on my community.
+    </p>
+
+    <p>
+      One quote that inspires me in this journey is:
+    </p>
+     <blockquote>
+      “I’d rather be a musician than a rock star.”
+      <br>— George Harrison
+     </blockquote>
+    <p>
+      A quick note on notation: water is written as H<sub>2</sub>O, and my personal motto could be
+      expressed as "Growth<sup>2</sup>" — always squaring my effort with my ambition.
+    </p>
+  </div>
+<hr>
+<hr>
+<hr>
+  <!-- IMAGE SECTION -->
+  <div>
+    <h2>P H O T O</h2>
+    <p>Here is a picture of my favorite Beatle:</p>
+    <img src="https://github.com/p1nk-fl0yd-111/html-portfolio-lab/blob/main/George_Harrison_in_Let_It_Be.png" width="300" height="300">
+    
+    <p><small>George Harrison Is The Greatest Beetle</small></p>
+  </div>
+<hr>
+<hr>
+  <!--  AUDIO SECTION -->
+  <div>
+    <h2>Here's A Song</h2>
+    <p>Listen to All Things Must Pass</p>
+    <audio controls>
+      <source src="https://github.com/p1nk-fl0yd-111/html-portfolio-lab/blob/main/All%20Things%20Must%20Pass%20(2014%20Remaster).mp3" alt="George Harrison" type="audio/mp3">
+      <source src="PLACEHOLDER-audio.ogg" type="audio/ogg"> 
+    </audio>
+  </div>
+<hr>
+<hr>
+  <!-- VIDEO SECTION -->
+  <div>
+    <h2>A Video Of George Harrison</h2>
+    <p>Watch a George helping Ringo</p>
+    <video controls poster="https://github.com/p1nk-fl0yd-111/html-portfolio-lab/blob/main/3435_1.jpg " width="500" height="300">
+      <source src="https://github.com/p1nk-fl0yd-111/html-portfolio-lab/blob/main/georgehelpsringo.mp4" type="video/mp4">
+      <source src="PLACEHOLDER-video.webm" type="video/webm">
+    </video>
+  </div>
+<hr>
+<hr>
+  <!-- ADVANCED EMBEDDING SECTION  -->
+  <div>
+    <h2>Additional Documents &amp; Media</h2>
+
+    <h3>My Resume (via &lt;object&gt;)</h3>
+    <p>Below is my resume embedded as a PDF document:</p>
+    <object data="PLACEHOLDER-resume.pdf" type="application/pdf" width="100%" height="500">
+      <p>It appears your browser doesn't support embedded PDFs.
+      You can <a href="PLACEHOLDER-resume.pdf">download the resume PDF</a> instead.</p>
+    </object>
+    <p><small>Replace PLACEHOLDER-resume.pdf with the path to your own PDF resume.</small></p>
+
+    <h3>A Graphic (via &lt;embed&gt;)</h3>
+    <p>Here is an embedded graphic/certificate:</p>
+    <embed src="PLACEHOLDER-certificate.pdf" type="application/pdf" width="100%" height="400">
+    <p><small>Replace PLACEHOLDER-certificate.pdf with your own PDF or SVG file.</small></p>
+
+    <h3>An External Webpage (via &lt;iframe&gt;)</h3>
+    <p>Here is one of my favorite websites, embedded directly on this page:</p>
+    <iframe src="https://en.wikipedia.org/wiki/Special:Random" title="Embedded external webpage" width="100%" height="400">
+      Your browser does not support iframes.
+    </iframe>
+    <p><small>Replace the iframe src with a webpage of your choice (must allow embedding).</small></p>
+  </div>
+
+</main>
+<hr>
+<hr>
+<hr>
+<footer>
+  <p> 2026 Swadhin Bhandari. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
